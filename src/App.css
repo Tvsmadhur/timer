@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Modak&display=swap');
+html {
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    height: 100%;
+    background: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    /* font-family: 'Modak', cursive; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#message {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+    background-color: black;
+    border: none;
+    border-bottom: 2px white ridge;
+    color: white;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    width: 70px;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+    outline: none;
+}
+
+#whole-center {
+    width: content;
+    padding-left: 35%;
+    padding-top: 20%;
+}
+
+#current-time {
+    color: white;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    width: 70px;
+    margin: auto;
+    text-align: center;
 }
